@@ -1,3 +1,4 @@
+Merhaba, burada geliştirdiğim Derin Öğrenme projemin özeti yer almaktadır.
 FİSK DATASET PROJECT SUMMARY
 İlk olarak, veri analizi, görselleştirme ve makine öğrenimi için gerekli kütüphaneler olan Pandas, NumPy, Matplotlib, Scikit-learn, OS, Struct, Warnings, TensorFlow, Pillow ve Keras'ı içe aktardım. Ayrıca, uyarıları göz ardı etmek için bir ayar yaptım. 
 Sonra , balık görüntülerinin bulunduğu dizindeki tüm .png dosyalarını bulup, her birinin etiketini ve dosya yolunu çıkardım. Bu bilgileri iki listeye (label ve path) ekledim. Daha sonra, bu listeleri kullanarak bir Pandas DataFrame oluşturdum ve path ile label sütunlarını doldurdum. Ayrıca, "GT" (Ground Truth) klasörlerini göz ardı ettim. 
